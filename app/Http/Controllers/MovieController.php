@@ -8,6 +8,9 @@ use App\Movie;
 
 class MovieController extends Controller
 {
+//      Controls movie pages, currently indexes movies from movie table
+//      Exported table can be found in docs folder
+//      Use PHPMyAdmin to import table 
     /**
      * Display a listing of the resource.
      *
