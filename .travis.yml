@@ -10,4 +10,4 @@ env:
   - APP_KEY=base64:oKkca01Gaxi9n+4iJlF6VL1QIHp49Ln6VTa6N61O4Ws= AMO_USE_MIGRATION=no APP_ENV=local
 
 script:
-  - vendor/bin/phpunit
+  
