@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/bestellen', 'HomeController@index')->name('home');
+
 Route::get('/', 'MovieController@index');
 
 Route::resource('movies', 'MovieController');
